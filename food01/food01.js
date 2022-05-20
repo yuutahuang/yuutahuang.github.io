@@ -16,9 +16,9 @@ function draw() {
         rect(50, 100, 150, 2);
     if (choice == 2)
         rect(50, 150, 150, 2);
-     if (choice == 3)
+    if (choice == 3)
         rect(50, 200, 150, 2);
-     if (choice == 4)
+    if (choice == 4)
         rect(50, 250, 150, 2);
     text("龜肉", 50, 50);
     text("泡麵", 50, 100);
