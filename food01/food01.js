@@ -19,10 +19,12 @@ function draw() {
     text("龜肉", 50, 50);
     text("泡麵", 50, 100);
     text("便當", 50, 150);
+    text("牛排", 50, 200);
+    text("大餐", 50, 250);
 }
 
 function mousePressed() {
-    choice = int(random(3));
+    choice = int(random(5));
 }
 
 function initializeFields() {
